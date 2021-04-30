@@ -1,0 +1,65 @@
+const mongoose = require('mongoose');
+const Rank = mongoose.model('Rank',{
+
+    name:{
+        type:String
+    },
+    profile_link:{
+        type:String
+    },
+    location:{
+        type:String
+    },
+    education:{
+        type:String
+    },
+    challenges_Solved:{
+        type:Number
+    },
+    solutions_submitted:{
+        type:Number
+    },
+    solutions_accepted:{
+        type:Number
+    },
+    overall_rank:{
+        type:Number
+    },
+    followers:{
+        type:Number
+    },
+    following:{
+        type:Number
+    },
+    datastructures:{
+        type:Number
+    },
+    algorithms:{
+        type:Number
+    },
+    c_plus_plus:{
+        type:Number
+    },
+    java:{
+        type:Number
+    },
+    python:{
+        type:Number
+    },
+    html:{
+        type:Number
+    },
+    javascript:{
+        type:Number
+    },
+    no_of_votes:{
+        type:Number
+    },
+    timestamp:{
+        type:Number
+    },
+    device_type:{
+        type:String
+    }
+})
+module.exports={Rank}
